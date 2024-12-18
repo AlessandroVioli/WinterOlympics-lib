@@ -1,0 +1,11 @@
+id,city,venue_name,region,events,latitude,longitude
+1,Milano,San Siro Stadium,Lombardia,Opening ceremony,45.4781,9.1245
+2,Milano,Fiera Milano,Lombardia,"Figure Skating, Ice Hockey",45.4817,9.1432
+3,Bormio,Stelvio Ski centre,Lombardia,"Alpine Skiing, Ski Mountaineering",46.4691,10.3729
+4,Livigno,Livigno Snow Park,Lombardia,"Snowboarding, Freestyle Skiing",46.5405,10.1355
+5,Cortina d'Ampezzo,Sliding Centre,Veneto,"Bobsleigh, Luge, Skeleton",46.5401,12.1378
+6,Cortina d'Ampezzo,Olympic Ice Stadium,Veneto,Curling,46.5399,12.1356
+7,Anterselva,Anterselva Biathlon arena,Trentino Alto-Adige,Biathlon,46.8988,12.0344
+8,Predazzo,Predazzo Ski Jumping Stadium,Trentino Alto-Adige,"Ski Jumping, Nordic Combined",46.3076,11.6165
+9,Tesero,Tesero Cross-Country Skiing Stadium,Trentino Alto-Adige,"Cross-Country Skiing, Para Biathlon, Para Cross-Country Skiing",46.2831,11.5202
+10,Verona,Arena di Verona,Veneto,Closing Ceremony,45.4384,10.9921

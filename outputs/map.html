@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fdfd6e621cd47dfa5c8f221107be7c7b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fdfd6e621cd47dfa5c8f221107be7c7b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fdfd6e621cd47dfa5c8f221107be7c7b = L.map(
+                "map_fdfd6e621cd47dfa5c8f221107be7c7b",
+                {
+                    center: [46.19773, 10.921270000000002],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_684ec4111ddab35a71b5dfc61558527a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_684ec4111ddab35a71b5dfc61558527a.addTo(map_fdfd6e621cd47dfa5c8f221107be7c7b);
+        
+    
+            var marker_1a8db62e418c628ed64e919c09743bd4 = L.marker(
+                [45.4781, 9.1245],
+                {}
+            ).addTo(map_fdfd6e621cd47dfa5c8f221107be7c7b);
+        
+    
+        var popup_5b6d75be251b6944b76afea2c0bf34be = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_366ca98cdee4ce370c913f70162cba6a = $(`<div id="html_366ca98cdee4ce370c913f70162cba6a" style="width: 100.0%; height: 100.0%;">         <strong>Point ID:</strong> 0<br>         <strong>Latitude:</strong> 45.4781<br>         <strong>Longitude:</strong> 9.1245<br>         <strong>City:</strong> Milano<br>         <strong>Venue Name:</strong> San Siro Stadium<br>          <strong>Region:</strong> Lombardia<br>          <strong>Events:</strong> Opening ceremony<br>          </div>`)[0];
+                popup_5b6d75be251b6944b76afea2c0bf34be.setContent(html_366ca98cdee4ce370c913f70162cba6a);
+            
+        
+
+        marker_1a8db62e418c628ed64e919c09743bd4.bindPopup(popup_5b6d75be251b6944b76afea2c0bf34be)
+        ;
+
+        
+    
+    
+            var marker_7accc3d0b6f2c3e74cd2fc0e285751da = L.marker(
+                [45.4817, 9.1432],
+                {}
+            ).addTo(map_fdfd6e621cd47dfa5c8f221107be7c7b);
+        
+    
+        var popup_a62e5e7727a868767ba907a6341e0891 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_228474b4f34bb1666a9af76915a9b736 = $(`<div id="html_228474b4f34bb1666a9af76915a9b736" style="width: 100.0%; height: 100.0%;">         <strong>Point ID:</strong> 1<br>         <strong>Latitude:</strong> 45.4817<br>         <strong>Longitude:</strong> 9.1432<br>         <strong>City:</strong> Milano<br>         <strong>Venue Name:</strong> Fiera Milano<br>          <strong>Region:</strong> Lombardia<br>          <strong>Events:</strong> Figure Skating, Ice Hockey<br>          </div>`)[0];
+                popup_a62e5e7727a868767ba907a6341e0891.setContent(html_228474b4f34bb1666a9af76915a9b736);
+            
+        
+
+        marker_7accc3d0b6f2c3e74cd2fc0e285751da.bindPopup(popup_a62e5e7727a868767ba907a6341e0891)
+        ;
+
+        
+    
+    
+            var marker_0ec86bc554e963cac292c3173e343a59 = L.marker(
+                [46.4691, 10.3729],
+                {}
+            ).addTo(map_fdfd6e621cd47dfa5c8f221107be7c7b);
+        
+    
+        var popup_7eb75cf072c21c4bd7be6ef55dd1ab12 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b05abdf0ea53c83a063d91ad1cdd47e0 = $(`<div id="html_b05abdf0ea53c83a063d91ad1cdd47e0" style="width: 100.0%; height: 100.0%;">         <strong>Point ID:</strong> 2<br>         <strong>Latitude:</strong> 46.4691<br>         <strong>Longitude:</strong> 10.3729<br>         <strong>City:</strong> Bormio<br>         <strong>Venue Name:</strong> Stelvio Ski centre<br>          <strong>Region:</strong> Lombardia<br>          <strong>Events:</strong> Alpine Skiing, Ski Mountaineering<br>          </div>`)[0];
+                popup_7eb75cf072c21c4bd7be6ef55dd1ab12.setContent(html_b05abdf0ea53c83a063d91ad1cdd47e0);
+            
+        
+
+        marker_0ec86bc554e963cac292c3173e343a59.bindPopup(popup_7eb75cf072c21c4bd7be6ef55dd1ab12)
+        ;
+
+        
+    
+    
+            var marker_65935b8010ea3afafe5ca1616e79dd1b = L.marker(
+                [46.5405, 10.1355],
+                {}
+            ).addTo(map_fdfd6e621cd47dfa5c8f221107be7c7b);
+        
+    
+        var popup_49c5c8f1c79693daa81c1a245c4a1da4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c3ef347d34a88c4a84024f874b038f4a = $(`<div id="html_c3ef347d34a88c4a84024f874b038f4a" style="width: 100.0%; height: 100.0%;">         <strong>Point ID:</strong> 3<br>         <strong>Latitude:</strong> 46.5405<br>         <strong>Longitude:</strong> 10.1355<br>         <strong>City:</strong> Livigno<br>         <strong>Venue Name:</strong> Livigno Snow Park<br>          <strong>Region:</strong> Lombardia<br>          <strong>Events:</strong> Snowboarding, Freestyle Skiing<br>          </div>`)[0];
+                popup_49c5c8f1c79693daa81c1a245c4a1da4.setContent(html_c3ef347d34a88c4a84024f874b038f4a);
+            
+        
+
+        marker_65935b8010ea3afafe5ca1616e79dd1b.bindPopup(popup_49c5c8f1c79693daa81c1a245c4a1da4)
+        ;
+
+        
+    
+    
+            var marker_6a0b0bb16c74755d31b7432d1f446711 = L.marker(
+                [46.5401, 12.1378],
+                {}
+            ).addTo(map_fdfd6e621cd47dfa5c8f221107be7c7b);
+        
+    
+        var popup_d283277855083673b6ad22f996c1aa5b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a92cd8f45f7a643074a4ac57a5eb26c7 = $(`<div id="html_a92cd8f45f7a643074a4ac57a5eb26c7" style="width: 100.0%; height: 100.0%;">         <strong>Point ID:</strong> 4<br>         <strong>Latitude:</strong> 46.5401<br>         <strong>Longitude:</strong> 12.1378<br>         <strong>City:</strong> Cortina d'Ampezzo<br>         <strong>Venue Name:</strong> Sliding Centre<br>          <strong>Region:</strong> Veneto<br>          <strong>Events:</strong> Bobsleigh, Luge, Skeleton<br>          </div>`)[0];
+                popup_d283277855083673b6ad22f996c1aa5b.setContent(html_a92cd8f45f7a643074a4ac57a5eb26c7);
+            
+        
+
+        marker_6a0b0bb16c74755d31b7432d1f446711.bindPopup(popup_d283277855083673b6ad22f996c1aa5b)
+        ;
+
+        
+    
+    
+            var marker_d7bf7df032d80667b5a1abbcde591672 = L.marker(
+                [46.5399, 12.1356],
+                {}
+            ).addTo(map_fdfd6e621cd47dfa5c8f221107be7c7b);
+        
+    
+        var popup_f46b702777ec04c213f0147f4cfba0a9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a2fc98bec5ff2cdda9802944662059d7 = $(`<div id="html_a2fc98bec5ff2cdda9802944662059d7" style="width: 100.0%; height: 100.0%;">         <strong>Point ID:</strong> 5<br>         <strong>Latitude:</strong> 46.5399<br>         <strong>Longitude:</strong> 12.1356<br>         <strong>City:</strong> Cortina d'Ampezzo<br>         <strong>Venue Name:</strong> Olympic Ice Stadium<br>          <strong>Region:</strong> Veneto<br>          <strong>Events:</strong> Curling<br>          </div>`)[0];
+                popup_f46b702777ec04c213f0147f4cfba0a9.setContent(html_a2fc98bec5ff2cdda9802944662059d7);
+            
+        
+
+        marker_d7bf7df032d80667b5a1abbcde591672.bindPopup(popup_f46b702777ec04c213f0147f4cfba0a9)
+        ;
+
+        
+    
+    
+            var marker_e5f83c2d6220feef63cb31c52cdd403c = L.marker(
+                [46.8988, 12.0344],
+                {}
+            ).addTo(map_fdfd6e621cd47dfa5c8f221107be7c7b);
+        
+    
+        var popup_0c51c9fac653f8b8305ac807ed1a0e18 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f1067b34438a1c984d09fa047f4c0398 = $(`<div id="html_f1067b34438a1c984d09fa047f4c0398" style="width: 100.0%; height: 100.0%;">         <strong>Point ID:</strong> 6<br>         <strong>Latitude:</strong> 46.8988<br>         <strong>Longitude:</strong> 12.0344<br>         <strong>City:</strong> Anterselva<br>         <strong>Venue Name:</strong> Anterselva Biathlon arena<br>          <strong>Region:</strong> Trentino Alto-Adige<br>          <strong>Events:</strong> Biathlon<br>          </div>`)[0];
+                popup_0c51c9fac653f8b8305ac807ed1a0e18.setContent(html_f1067b34438a1c984d09fa047f4c0398);
+            
+        
+
+        marker_e5f83c2d6220feef63cb31c52cdd403c.bindPopup(popup_0c51c9fac653f8b8305ac807ed1a0e18)
+        ;
+
+        
+    
+    
+            var marker_6844f918495ae7b63983ccb1f84d6888 = L.marker(
+                [46.3076, 11.6165],
+                {}
+            ).addTo(map_fdfd6e621cd47dfa5c8f221107be7c7b);
+        
+    
+        var popup_7529508469f1652eb9cd17f6b76094f4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_42b5caafd904b46188bc5ebcd3048907 = $(`<div id="html_42b5caafd904b46188bc5ebcd3048907" style="width: 100.0%; height: 100.0%;">         <strong>Point ID:</strong> 7<br>         <strong>Latitude:</strong> 46.3076<br>         <strong>Longitude:</strong> 11.6165<br>         <strong>City:</strong> Predazzo<br>         <strong>Venue Name:</strong> Predazzo Ski Jumping Stadium<br>          <strong>Region:</strong> Trentino Alto-Adige<br>          <strong>Events:</strong> Ski Jumping, Nordic Combined<br>          </div>`)[0];
+                popup_7529508469f1652eb9cd17f6b76094f4.setContent(html_42b5caafd904b46188bc5ebcd3048907);
+            
+        
+
+        marker_6844f918495ae7b63983ccb1f84d6888.bindPopup(popup_7529508469f1652eb9cd17f6b76094f4)
+        ;
+
+        
+    
+    
+            var marker_75ba27b1d2c1b174208fa6424af6467d = L.marker(
+                [46.2831, 11.5202],
+                {}
+            ).addTo(map_fdfd6e621cd47dfa5c8f221107be7c7b);
+        
+    
+        var popup_7371c608bcec0dc3d51319b328ef1075 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a293611fc8601f3f951ce7fe517bcfd9 = $(`<div id="html_a293611fc8601f3f951ce7fe517bcfd9" style="width: 100.0%; height: 100.0%;">         <strong>Point ID:</strong> 8<br>         <strong>Latitude:</strong> 46.2831<br>         <strong>Longitude:</strong> 11.5202<br>         <strong>City:</strong> Tesero<br>         <strong>Venue Name:</strong> Tesero Cross-Country Skiing Stadium<br>          <strong>Region:</strong> Trentino Alto-Adige<br>          <strong>Events:</strong> Cross-Country Skiing, Para Biathlon, Para Cross-Country Skiing<br>          </div>`)[0];
+                popup_7371c608bcec0dc3d51319b328ef1075.setContent(html_a293611fc8601f3f951ce7fe517bcfd9);
+            
+        
+
+        marker_75ba27b1d2c1b174208fa6424af6467d.bindPopup(popup_7371c608bcec0dc3d51319b328ef1075)
+        ;
+
+        
+    
+    
+            var marker_b12ef8aaa0fa9b79ca382ffae0733e59 = L.marker(
+                [45.4384, 10.9921],
+                {}
+            ).addTo(map_fdfd6e621cd47dfa5c8f221107be7c7b);
+        
+    
+        var popup_fa880949294d539f187f964eb2678cb0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1803377bfe0c725e341c5212031b2207 = $(`<div id="html_1803377bfe0c725e341c5212031b2207" style="width: 100.0%; height: 100.0%;">         <strong>Point ID:</strong> 9<br>         <strong>Latitude:</strong> 45.4384<br>         <strong>Longitude:</strong> 10.9921<br>         <strong>City:</strong> Verona<br>         <strong>Venue Name:</strong> Arena di Verona<br>          <strong>Region:</strong> Veneto<br>          <strong>Events:</strong> Closing Ceremony<br>          </div>`)[0];
+                popup_fa880949294d539f187f964eb2678cb0.setContent(html_1803377bfe0c725e341c5212031b2207);
+            
+        
+
+        marker_b12ef8aaa0fa9b79ca382ffae0733e59.bindPopup(popup_fa880949294d539f187f964eb2678cb0)
+        ;
+
+        
+    
+</script>
+</html>
