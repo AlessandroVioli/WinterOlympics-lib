@@ -31,6 +31,6 @@ The file testing_library.ipynb contains lines of code that test all the function
 
 - download the folder 'olympic locations files'
 - download the library winter_olympics
-- 
+  
 **Install Required Libraries:**  
 In the requirements.txt file are listed all the libraries needed to run the code  
